@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <form method="POST" action="/calculate">
+        <input type="text" name="input1" placeholder="身高（米）">
+        <div id="output1">{{ input1 }}</div>
+        <input type="text" name="input2" placeholder="体重（千克）">
+        <div id="output2">{{ input2 }}</div>
+        <button type="submit" name="button1">Calculate</button>
+    </form>
+    <div>{{ result }}</div>
+</body>
+</html>
