@@ -83,7 +83,7 @@ class SexNet(nn.Layer):
 optim = paddle.optimizer.Adam(learning_rate=0.01,weight_decay=1e-3,parameters=model.parameters())
 loss_fn = paddle.nn.CrossEntropyLoss()
 ```
-训练代码就不在这里展示，见Github：[]()
+训练代码就不在这里展示，见Github：[https://github.com/feizai2003/Paddle_sexdemo](https://github.com/feizai2003/Paddle_sexdemo)
 ![我的图片](image\paddle-Show.png)
 ## 利用flask搭建web服务
 > [flask]()是什么呢? 一个轻量级web开发框架  
