@@ -15,3 +15,9 @@ python demo.py
 # 部署到web
 python app.py
 ```
+
+## TODO
+- [ ] 增加gradio
+- [ ] 增加Pytorch搭建和训练模型
+- [ ] 增加Mindspore搭建和训练模型
+- [ ] 增加多种模型部署
